@@ -1,7 +1,9 @@
 package CI346.ast.visitor;
 
-import CI346.ast.*;
-import CI346.tree.Branch;
+import CI346.ast.Id;
+import CI346.ast.Minus;
+import CI346.ast.Plus;
+import CI346.ast.Val;
 
 /**
  * The base class of Visitors for ASTs. This interface needs to contain an
@@ -12,5 +14,10 @@ import CI346.tree.Branch;
  * Created by jb259 on 27/10/16.
  */
 public interface ASTVisitor<T> {
-
+    T visit(Plus<T> op);
+    T visit(Minus<T> op);
+    T visit(Id<T> var);
+    T visit(Val<T> val);
+    T visit(Mul<T> op);
+    T visit(Pow<T> p);
 }

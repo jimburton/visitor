@@ -13,6 +13,18 @@ public class SumTreeVisitor implements TreeVisitor {
 
     private int sum = 0;
 
+    @Override
+    public void visit(Branch node) {
+        sum += (int) node.getLabel();
+        node.getLeft().accept(this);
+        node.getRight().accept(this);
+    }
+
+    @Override
+    public void visit(Leaf node) {
+        sum += (int) node.getLabel();
+    }
+
     public int getSum() {
         return sum;
     }

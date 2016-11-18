@@ -19,6 +19,18 @@ public class ListTreeVisitor implements TreeVisitor {
         this.result = new ArrayList<>();
     }
 
+    @Override
+    public void visit(Branch node) {
+        node.getLeft().accept(this);
+        result.add(node.getLabel().toString());
+        node.getRight().accept(this);
+    }
+
+    @Override
+    public void visit(Leaf node) {
+        result.add(node.getLabel().toString());
+    }
+
     public String getList() {
         return result.toString();
     }
