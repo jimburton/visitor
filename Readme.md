@@ -36,7 +36,7 @@ Read the code for the classes in the package `CI346.ast` and
 trees} and visitors for them. An abstract syntax tree is a
 representation of an expression that is used by parsers and
 compilers. In this case, the expression is arithmetic with numbers,
-variables, addition and subtraction. An expression such as $5 + y - 2$
+variables, addition and subtraction. An expression such as `5 + y - 2`
 would produce the following AST:
   
 
