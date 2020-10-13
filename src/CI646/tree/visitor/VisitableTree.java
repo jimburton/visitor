@@ -1,4 +1,4 @@
-package CI346.tree.visitor;
+package CI646.tree.visitor;
 
 /**
  * The interface for BinaryTree nodes which will be visited. This is a standard use

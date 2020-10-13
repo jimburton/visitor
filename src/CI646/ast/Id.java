@@ -1,6 +1,6 @@
-package CI346.ast;
+package CI646.ast;
 
-import CI346.ast.visitor.ASTVisitor;
+import CI646.ast.visitor.ASTVisitor;
 
 /**
  * An AST node that represents an identifier, such as `x'.

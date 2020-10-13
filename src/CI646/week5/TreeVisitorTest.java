@@ -1,18 +1,13 @@
-package CI346.week5;
+package CI646.week5;
 
-import CI346.ast.*;
-import CI346.ast.visitor.EvalVisitor;
-import CI346.tree.BinaryTree;
-import CI346.tree.Branch;
-import CI346.tree.Leaf;
-import CI346.tree.visitor.ListTreeVisitor;
-import CI346.tree.visitor.SumTreeVisitor;
+import CI646.tree.BinaryTree;
+import CI646.tree.Branch;
+import CI646.tree.Leaf;
+import CI646.tree.visitor.ListTreeVisitor;
+import CI646.tree.visitor.SumTreeVisitor;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
 

@@ -1,7 +1,4 @@
-package CI346.tree.visitor;
-
-import CI346.tree.Branch;
-import CI346.tree.Leaf;
+package CI646.tree.visitor;
 
 /**
  * A visitor for binary trees that carries out a *pre-order* traversal to add together

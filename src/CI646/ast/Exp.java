@@ -1,6 +1,6 @@
-package CI346.ast;
+package CI646.ast;
 
-import CI346.ast.visitor.VisitableAST;
+import CI646.ast.visitor.VisitableAST;
 
 /**
  * The base class for all AST nodes, where `Exp' stands for Expression.

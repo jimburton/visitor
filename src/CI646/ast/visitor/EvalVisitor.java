@@ -1,6 +1,5 @@
-package CI346.ast.visitor;
+package CI646.ast.visitor;
 
-import CI346.ast.*;
 import java.util.Map;
 
 /**

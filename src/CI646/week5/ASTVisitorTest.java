@@ -1,12 +1,7 @@
-package CI346.week5;
+package CI646.week5;
 
-import CI346.ast.*;
-import CI346.tree.Branch;
-import CI346.tree.Leaf;
-import CI346.tree.BinaryTree;
-import CI346.ast.visitor.EvalVisitor;
-import CI346.tree.visitor.ListTreeVisitor;
-import CI346.tree.visitor.SumTreeVisitor;
+import CI646.ast.*;
+import CI646.ast.visitor.EvalVisitor;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

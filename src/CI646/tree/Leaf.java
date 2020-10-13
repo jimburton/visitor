@@ -1,6 +1,6 @@
-package CI346.tree;
+package CI646.tree;
 
-import CI346.tree.visitor.TreeVisitor;
+import CI646.tree.visitor.TreeVisitor;
 
 /**
  * The subclass of BinaryTree that represents a leaf node.

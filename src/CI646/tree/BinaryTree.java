@@ -1,6 +1,6 @@
-package CI346.tree;
+package CI646.tree;
 
-import CI346.tree.visitor.VisitableTree;
+import CI646.tree.visitor.VisitableTree;
 
 /**
  * The base class for nodes in a binary tree. Implements VisitableTree

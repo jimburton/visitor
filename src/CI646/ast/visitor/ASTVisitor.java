@@ -1,7 +1,4 @@
-package CI346.ast.visitor;
-
-import CI346.ast.*;
-import CI346.tree.Branch;
+package CI646.ast.visitor;
 
 /**
  * The base class of Visitors for ASTs. This interface needs to contain an

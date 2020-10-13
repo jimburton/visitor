@@ -1,4 +1,4 @@
-package CI346.ast;
+package CI646.ast;
 
 /**
  * An AST node which represents a binary operator.

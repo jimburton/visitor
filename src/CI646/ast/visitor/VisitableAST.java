@@ -1,4 +1,4 @@
-package CI346.ast.visitor;
+package CI646.ast.visitor;
 
 /**
  * The interface for AST nodes which will be visited. This is a non-standard
