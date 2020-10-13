@@ -1,9 +1,6 @@
 package CI346.ast.visitor;
 
-import CI346.ast.Id;
-import CI346.ast.Minus;
-import CI346.ast.Plus;
-import CI346.ast.Val;
+import CI346.ast.*;
 
 import java.util.Map;
 

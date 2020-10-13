@@ -4,6 +4,8 @@ import CI346.ast.Id;
 import CI346.ast.Minus;
 import CI346.ast.Plus;
 import CI346.ast.Val;
+import CI346.ast.Mul;
+import CI346.ast.Pow;
 
 /**
  * The base class of Visitors for ASTs. This interface needs to contain an

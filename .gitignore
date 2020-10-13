@@ -12,7 +12,7 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
-out/2
+out/*
 
 *.iml
 
