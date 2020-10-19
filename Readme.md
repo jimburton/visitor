@@ -78,7 +78,7 @@ results. Evaluating a `Pow` node means raising the result of
 evaluating the first parameter to the value produced by evaluating the
 second parameter.
 
-    Create new tests in the class `CI646.week5.ASTVisitorTest` to test
+    Create new tests in the class `CI646.tests.ASTVisitorTest` to test
 your work. You should now be able to evaluate expressions such as 
     
     ```
@@ -91,3 +91,12 @@ and `y`. This expression is represented by the following AST:
     ```
     Mul(Id("x"), Pow(Val(2), Minus(Id("y"), Val(1))))
     ```
+   
+7. While implementing *Visitor* you have needed to add 
+[*boilerplate code*](https://en.wikipedia.org/wiki/Boilerplate_code)
+  to various classes, something which is generally considered
+  harmful. Can you think of ways to avoid this? Read the 
+  wikipedia page for 
+  [The Expression Problem](https://en.wikipedia.org/wiki/Expression_problem).
+  How does this relate to the *Visitor* pattern?
+

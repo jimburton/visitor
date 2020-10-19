@@ -1,4 +1,4 @@
-package CI646.week5;
+package CI646.tests;
 
 import CI646.tree.BinaryTree;
 import CI646.tree.Branch;
